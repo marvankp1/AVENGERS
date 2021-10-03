@@ -4,9 +4,9 @@
 
   # <u> SETUP <u>
   
-[![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@souravkl11/Raganork-QR)
+[![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@marvankp1/AVENGER-QR)
 
-[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://bit.ly/3hrN7gU)
+[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/marvankp1/AVENGERS.git)
      
 <a href="https://chat.whatsapp.com/ClnLdmPpRh1BjtAY86njhN"><img src="https://www.linkpicture.com/q/LPic614d2f8eed9fe797753793.png" alt="Join our group" height="25" width="500" border="0"></a>
   
