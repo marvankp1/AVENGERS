@@ -324,7 +324,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End External Plugins ====================
 
         console.log(
-            chalk.blueBright.italic('✅Connecting to Raganork Database...')
+            chalk.blueBright.italic('✅Connecting to AVENGERS Database...')
         );
 
         // ==================== Internal Plugins ====================
@@ -341,9 +341,9 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('⚡ Raganork' + afwhasena));
+        console.log(chalk.bgGreen('⚡ AVENGERS' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
-        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*WhatsAsena Chatbot Olarak Çalışıyor!* 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*𝙍𝙖𝙜𝙖𝙣𝙤𝙧𝙠 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙖𝙨 𝙖 𝘾𝙝𝙖𝙩𝙗𝙤𝙩! 💬*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.chatbot off* _command to return to normal mode._\n\n*Killadism never ends!*\n    *- Raganork*'
+        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*WhatsAsena Chatbot Olarak Çalışıyor!* 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*𝙍𝙖𝙜𝙖𝙣𝙤𝙧𝙠 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙖𝙨 𝙖 𝘾𝙝𝙖𝙩𝙗𝙤𝙩! 💬*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.chatbot off* _command to return to normal mode._\n\n*Killadism never ends!*\n    *- AVENGERS*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -400,7 +400,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <souravkl11>\n';
+                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <marvankp1>\n';
                         }
                     );
         
@@ -429,7 +429,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <souravkl11>\n';
+                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <marvankp1>\n';
                         }
                     );
                     await conn.sendMessage(
@@ -680,7 +680,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ ʀᴀɢᷨᴀͦɴͭᴏʀᴋ ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~♥️🕊️______ AVENGER _____🕊️♥️~*' +
                                     '\n\n*🥲 ' + error + '*\n\n' + 'Error onnum kandu pedikkanda. seen illa nenbaa 💖'
                                     , MessageType.text);
                             }
